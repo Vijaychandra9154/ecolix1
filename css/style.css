@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #007B5E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    height: 60px;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007B5E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005f47;
+}

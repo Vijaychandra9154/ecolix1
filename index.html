@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ecolix - Smarter Homes. Greener Future.</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Ecolix Logo" class="logo"/>
+        <h1>Smarter Homes. Greener Future.</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Get a Quote</h2>
+            <form action="form.html" method="get">
+                <label>Number of Family Members:
+                    <input type="number" id="familySize" name="familySize" required>
+                </label><br>
+                <label>Has Garden? 
+                    <input type="checkbox" id="garden" name="garden">
+                </label><br>
+                <label>Need Rainwater Harvesting?
+                    <input type="checkbox" id="rainwater" name="rainwater">
+                </label><br>
+                <label>Need Kitchen Biogas?
+                    <input type="checkbox" id="biogas" name="biogas">
+                </label><br>
+                <button type="button" onclick="calculateQuote()">Get Estimate</button>
+            </form>
+            <p id="quoteResult"></p>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>📞 <a href="tel:+919999999999">+91 99999 99999</a></p>
+            <p>💬 <a href="https://wa.me/919999999999" target="_blank">WhatsApp Us</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ecolix. All rights reserved.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
